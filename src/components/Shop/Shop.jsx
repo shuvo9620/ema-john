@@ -75,8 +75,8 @@ const Shop = () => {
                     handleClearCart={handleClearCart}
                 >
 
-                    <Link to="/orders">
-                        <button>Review Order</button>
+                    <Link className='proceed-link' to="/orders">
+                        <button className='btn-proceed'>Review Order</button>
                     </Link>
                 </Cart>
             </div>
